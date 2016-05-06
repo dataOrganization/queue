@@ -63,6 +63,7 @@ int main(int argc, const char * argv[]) {
     for (int i = 0; i < 10; i++) {
         insertQueue(q, i);
     }
+
     insertQueue(q, 10);
     printfQueue(q);
     deleteHeadQueue(q, 0);
